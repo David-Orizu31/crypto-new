@@ -11,10 +11,6 @@
         margin-bottom: 10px;
     }
 
-    .first {
-        margin-top: 20px;
-    }
-
     .work-item::before {
       display: none;
     }
@@ -27,6 +23,10 @@
         min-height: 350px;  
     }
 
+    .certificate-area.contact {
+        min-height: 700px;
+    }
+
 }
 
 @media (max-width:480px) {
@@ -37,5 +37,13 @@
     .footer-text {
         line-height: 1em !important;
         font-size: 15px;
+    }
+
+    .first {
+        margin-top: 20px;
+    }
+
+    .certificate-area.contact {
+        min-height: 1050px !important;
     }
 }
