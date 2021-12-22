@@ -1,0 +1,41 @@
+@media (max-width:800px) {
+    .float-btn {
+        display: flex;
+    }
+    .btn-login {
+        width: 50%;
+        margin-bottom: 10px;
+    }
+    .btn-register{
+        width: 50%;
+        margin-bottom: 10px;
+    }
+
+    .first {
+        margin-top: 20px;
+    }
+
+    .work-item::before {
+      display: none;
+    }
+
+    .work-item.last::before {
+        display: none;
+      }
+
+      .get-started {
+        min-height: 350px;  
+    }
+
+}
+
+@media (max-width:480px) {
+    .crypto-footer {
+        text-align: center;
+    }
+
+    .footer-text {
+        line-height: 1em !important;
+        font-size: 15px;
+    }
+}

@@ -1,0 +1,401 @@
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&family=DM+Sans:wght@500&family=Nunito:wght@500;600;700&family=Prompt:wght@200;400&family=Raleway:wght@100;200;400&family=Roboto+Mono:ital,wght@0,300;1,700&family=Source+Sans+3:ital,wght@1,700&display=swap');
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.widget-update{
+    margin-top: -5px !important;
+}
+
+.navbar {
+    background-color: #0c3c4c;
+}
+
+.navbar .navbar-brand {
+    color: white !important;
+}
+
+.navbar .navbar-nav .nav-item {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+    color: white;
+}
+
+.navbar .navbar-nav .nav-item .nav-link.active {
+    color: rgb(223, 162, 9);
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover {
+    color: rgb(223, 162, 9);
+}
+
+.btn-login {
+    border: 2px solid #0c3c4c;
+    color: #0c3c4c;
+    border-radius: 0px;
+    background-color: white;
+    margin-right: 10px;
+}
+
+.btn-login:hover {
+    border: 2px solid white;
+    color: white;
+    background-color: #0c3c4c;
+}
+
+.btn-register {
+    border: 2px solid white;
+    color: white;
+    border-radius: 0px;
+    background-color: #0c3c4c;
+    margin-right: 10px;
+}
+
+.btn-register:hover {
+    border: 2px solid #0c3c4c;
+    color: #0c3c4c;
+    background-color: white;
+}
+
+.goog-te-combo{
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.goog-logo-link {
+   display:none !important;
+}
+
+.goog-te-gadget{
+   color: transparent !important;
+}
+
+.banner-area {
+    padding-top: 200px;
+}
+
+.banner-area h6 {
+    line-height: 2em;
+}
+
+.text-banner {
+    color: rgb(223, 162, 9);
+}
+
+.navbar-toggler {
+    border: 1px solid transparent !important;
+}
+
+.navbar-toggler:focus {
+    outline: 4px solid #0c3c4c !important;
+}
+
+.navbar-toggler .fa-bars {
+    font-size: 25px !important;
+}
+
+.home-banner {
+    background-image: url('../img/cryptobanner-2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 650px;
+}
+
+.btn-startmine {
+    color: white !important;
+    background-color: #0c3c4c;
+}
+
+.section-text {
+    color: #0c3c4c;
+}
+
+p {
+    font-size: 17px;
+    line-height: 1.8em;
+}
+
+.why-choose {
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.why-area {
+    background-color: #0c3c4c;
+}
+
+.why-heads {
+    color: rgb(223, 162, 9);
+    font-size: 23px;
+}
+
+.why-heads span {
+    margin-right: 10px;
+}
+
+.plans {
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url('../img/section-bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 600px;
+}
+
+.plans-area {
+    background-color: white;
+    border: 3px solid rgb(223, 162, 9);
+    padding: 20px;
+    box-shadow: 0 0 15px rgb(204 163 84 / 50%);
+    border-radius: 8px;
+    position: relative;
+}
+
+.plans-area:hover {
+    margin-top: -10px;
+    transition: all .25s ease-out;
+}
+
+.plan-head {
+    color: rgb(223, 162, 9);
+    font-size: 30px;
+}
+
+.plan-list {
+    list-style-type: none;
+    padding-inline-start: 0px !important;
+}
+
+.plan-list li {
+    font-size: 18px;
+    border-bottom: 1px solid rgb(223, 162, 9);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.plan-list li .capital {
+    color: white;
+    background-color: #0c3c4c;
+    padding: 3px;
+    border-radius: 4px;
+    font-size: 14px !important;
+}
+
+.plan-footer {
+    color: rgb(223, 162, 9);
+    font-size: 25px;
+}
+
+.plan-invest {
+    font-size: 20px;
+    color: #0c3c4c;
+}
+
+.profit-calculator-wrapper {
+    padding: 50px;
+    border: 2px solid rgba(204, 163, 84, 0.5);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    background-color: #000000;
+    box-shadow: 0 0 15px rgb(204 163 84 / 50%);
+    position: relative;
+}
+
+.certificate-area {
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url('../img/crypt-certibg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 600px;
+}
+
+.how-works {
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url('../img/cryptobanner.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 500px;
+} 
+
+.work-item {
+    position: relative;
+    z-index: 1;
+}
+
+.work-card {
+    padding: 30px;
+}
+
+
+.base--color {
+    color: rgb(223, 162, 9) !important;
+}
+.work-card__icon {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border: 3px solid rgb(223, 162, 9);
+    box-shadow: 0 0 15px 3px rgb(204 163 84 / 65%);
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0c3c4c;
+    position: relative;
+}
+.work-card__icon i {
+    font-size: 44px;
+    line-height: 1;
+}
+
+.work-card__icon .step-number {
+    position: absolute;
+    top: -3px;
+    right: -5px;
+    width: 32px;
+    height: 32px;
+    background-color: #0c3c4c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    border: 2px solid rgb(223, 162, 9);
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.work-card__content {
+    margin-top: 35px;
+}
+
+.work-item::before {
+    position: absolute;
+    content: '';
+    left: 50%;
+    top: 85px;
+    width: 450px;
+    height: 2px;
+    border-top: 1px dashed rgb(223, 162, 9);
+    z-index: -1;
+}
+
+.work-item.last::before {
+    position: absolute;
+    content: '';
+    left: 50%;
+    top: 85px;
+    width: 450px;
+    height: 2px;
+    border-top: 1px dashed transparent;
+    z-index: -1;
+}
+
+.card {
+    margin-bottom: 10px;
+}
+
+.card-header {
+  color: white;
+  background-color: #0c3c4c;
+  border-radius: 5px !important;
+  border: 2px solid rgb(223, 162, 9);
+}
+
+.card-header .btn-link {
+    color: white;
+    background-color: #0c3c4c;
+    text-decoration: none;
+  }
+
+.testimonial-area {
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url('../img/tetimonial-bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 600px;    
+}  
+
+.testimonial {
+    padding: 30px;
+    background-color: #0c3c4c;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border-bottom: 5px solid rgb(223, 162, 9);
+}
+
+.img-testimonial {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    float: right;
+    border: 3px solid rgb(223, 162, 9);
+}
+
+.get-started {
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url('../img/section-bg-2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 300px;  
+}
+
+.btn-join {
+    background-color: rgb(223, 162, 9);
+    color: white;
+    position: relative;
+    font-size: 20px;
+    width: 150px;
+}
+
+.crypto-footer {
+    background-color: rgb(24, 23, 23);
+    position: relative;
+    padding: 15px 15px 1px 15px;
+    border-top: 2px solid rgb(223, 162, 9);
+}
+
+.footer-media {
+    color: white;
+    margin: 0px 10px 0px 10px;
+}
+
+.footer-media:hover {
+    color: #0c3c4c;
+}
+
+.footer-text {
+    line-height: 1.5em !important;
+}
+
+.other-banners {
+    background-image: url('../img/section-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 400px;    
+}
