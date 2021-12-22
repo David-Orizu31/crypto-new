@@ -46,4 +46,8 @@
     .certificate-area.contact {
         min-height: 1050px !important;
     }
+
+    .banner-area {
+        padding-top: 170px;
+    }
 }
