@@ -472,12 +472,56 @@ p {
 .panel-area {
     background-color: white;
     border-radius: 8px;
+    box-shadow: 0 5px 15px rgb(204 163 84 / 50%);
+    position: relative;
 }
 
 .panel-area .panel-welcome {
     border-bottom: 2px solid rgb(223, 162, 9);
 }
 
-.panel-area .panel-welcome h1 {
+.panel-area .panel-welcome h2 {
     padding: 30px;
+}
+
+.panel-area .panel-welcome h2 .one {
+    color: #0c3c4c;
+}
+
+.panel-area .panel-welcome h2 .two {
+    color: rgb(223, 162, 9);
+}
+
+.panel-area .panel-body {
+    padding: 30px;
+}
+
+.panel-area .panel-body .panel-text {
+    font-size: 17px;
+    color: #0c3c4c;
+}
+
+.panel-label {
+    line-height: 2em;
+}
+
+.panel-control {
+    border: 1px solid rgb(223, 162, 9) !important;
+}
+
+.btn-submit {
+    background-color: #0c3c4c;
+}
+
+.panel-foot {
+    font-size: 15px;
+}
+
+.panel-foot.second {
+    float: right;
+}
+
+.panel-footer {
+    color: rgb(223, 162, 9) !important;
+    text-decoration: none;
 }
