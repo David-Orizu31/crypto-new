@@ -176,111 +176,49 @@
         </div>
         <div class="content-body"><!-- stats -->
           <br><br>
-          <h2 class="dash-header">Request Withdrawal</h2>
-          <span>Request withdrawal on this screen</span>
-          <br>
-          <br>
-          <div class="row">
-              <div class="col-xl-4 col-lg-6 col-xs-12">
-                  <div class="card">
-                      <div class="card-body">
-                          <div class="card-block">
-                              <div class="media">
-                                  <div class="media-body text-xs-left">
-                                      <h1 class="dash-header">$ 0</h1>
-                                      <span>Account Balance</span>
-                                  </div>
-                                  <div class="media-right media-middle">
-                                      <i class="icon-wallet dash-icon font-large-2 float-xs-right"></i>
-                                  </div>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-
-              <div class="col-xl-4 col-lg-6 col-xs-12">
-                <div class="card">
-                    <div class="card-body">
-                        <div class="card-block">
-                            <div class="media">
-                                <div class="media-body text-xs-left">
-                                    <h1 class="dash-header">$ 0</h1>
-                                    <span>Pending Withdrawals</span>
-                                </div>
-                                <div class="media-right media-middle">
-                                    <i class="icon-money dash-icon font-large-2 float-xs-right"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-xl-4 col-lg-6 col-xs-12">
-                <div class="card">
-                    <div class="card-body">
-                        <div class="card-block">
-                            <div class="media">
-                                <div class="media-body text-xs-left">
-                                    <h1 class="dash-header">soi 52</h1>
-                                    <span>Bitcoin Account Address</span>
-                                </div>
-                                <div class="media-right media-middle">
-                                    <i class="icon-bitcoin dash-icon font-large-2 float-xs-right"></i>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-          </div>
+          <h2 class="dash-header">My Referrals</h2>
+          <span>View all your referrals</span>
+          <br><br>
           <div class="container">
           <div class="row">
               <div class="card">
                   <div class="card-body">
                       <div class="card-block">
-                        <h4>Request Withdrawal</h4>
+                        <h4 class="dash-header">My Referals</h4>
                         <br>
-                        <form action="" method="post">
-                            <div class="row">
-                                <div class="col-md-4">
-                                    <label for="currency" class="form-label"><strong>Currency </strong></label>
-                                    <select name="currency" id="currency" class="form-control form-select" required>
-                                        <option value="" selected disabled>-- Select Currency --</option>
-                                        <option value="btc">Bitcoin</option>
-                                    </select>
+                        <div class="row">
+                            <div class="col-sm-3">
+                              <h5>Referrals :</h5>
+                            </div>
+                            <div class="col-sm-9">
+                                <h5>0</h5>
+                            </div>
+                        </div>
+                       <br>
+                        <div class="row">
+                            <div class="col-sm-3">
+                              <h5>Referrer :</h5>
+                            </div>
+                            <div class="col-sm-9">
+                              <h5>Not Specified</h5>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="row">
+                            <div class="col-sm-3">
+                              <h5>Referral Link :</h5>
+                            </div>
+                            <div class="col-sm-9">
+                                <div class="row">
+                                    <div class="col-sm-9">
+                                    <input type="text" class="form-control" id="myInput" value="https://www.cointxb.com/register?ref=6e4db4ac-a6cd-11ea-b57f-88d7f6977c56" aria-label="Recipient's username" aria-describedby="basic-addon2" readonly>
                                 </div>
-                                <div class="col-md-4">
-                                    <label for="amount" class="form-label"><strong>Amount </strong></label>
-                                    <input type="text" name="amount" id="amount" class="form-control" placeholder="Enter Amount">
-                                </div>
-                                <div class="col-md-4">
-                                    <label for="address" class="form-label"><strong>Wallet Address </strong></label>
-                                    <input type="text" name="amount" id="amount" class="form-control" placeholder="Enter Bitcoin Wallet Address">   
+                                    <div class="col-sm-3">
+                                      <button class="btn btn-outline-secondary" type="button" onclick="copied()">Copy</button>
+                                    </div>
                                 </div>
                             </div>
-                            <br>
-                            <div class="form-group">
-                                <button type="submit" class="btn btn-proceed text-white">Request</button>
-                            </div>
-                        </form>
-
-                        <script src="assets/js/sweet-alert.js"></script>
-                        <script type="text/javascript">
-                document.getElementById("amount").onkeyup = function() {
-                  var input = parseInt(this.value);
-                  if (input < 0 || input > 0)
-                  Swal.fire({
-                  icon: 'error',
-                  title: 'Oops...',
-                  text: 'Insufficient balance please try again',
-                  
-                })
-                  return;
-                }
-                            
-                            </script>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -289,6 +227,24 @@
   </div>
 </div>
 </div>
+
+<script src="assets/js/sweet-alert.js"></script>
+
+<script>
+    function copied() {
+  var copyText = document.getElementById("myInput");
+  copyText.select();
+  copyText.setSelectionRange(0, 99999)
+  document.execCommand("copy");
+//   alert("Copied id: " + copyText.value);
+Swal.fire({
+                icon: 'success',
+                title: 'Success',
+                text: "Referral Link : " + copyText.value + " Copied",
+
+            });
+}
+    </script>
 
 <footer class="footer footer-static footer-light navbar-border">
   Copyright &copy; <span id="copyright"><script>document.getElementById('copyright').appendChild(document.createTextNode(new Date().getFullYear()))</script></span> CoinTXB. All rights reserved
